@@ -1,0 +1,8 @@
+meter{
+    width: 200px;
+}
+
+.checked + span {
+    text-decoration: line-through;
+    color: gray;
+}

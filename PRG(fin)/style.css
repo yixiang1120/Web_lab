@@ -1,0 +1,21 @@
+@font-face {
+    font-family: 'PixelFont';
+    src: url('slkscr.ttf');
+}
+
+body{
+    text-align: center;
+    font-family: 'PixelFont', sans-serif;
+    background-color: rgb(35, 146, 109);
+}
+canvas{
+    border: 2px solid black;
+    background-image: url(images/grasses68.gif);
+}
+
+#talkBox{
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    font-weight: bold;
+}
+

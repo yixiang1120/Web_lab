@@ -1,0 +1,70 @@
+
+body{
+    font-family:Microsoft JhengHei;
+    text-align:center;
+    width: 800px;
+    margin: 0 auto;
+    background-color: #f0e4cc;
+    padding: 0 20px 20px 20px;
+    border: 3px solid rgb(233, 172, 116);
+}
+h1{
+    color:rgb(0, 0, 0);
+}
+
+input{
+    margin: 10px 0;
+    background: #ffbf36;
+    border: 2px solid #c79a07;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.2) 1px 2px 4px;
+    box-sizing: border-box;
+    color: #FFFFFF;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 800;
+    line-height: 16px;
+    padding: 13px 16px;
+
+}
+
+input:hover{
+    background-color: initial;
+    background-position: 0 0;
+    color: #ffbf36;
+    transform: scale(1.05);
+}
+
+li{
+    color: rgb(56, 53, 53);
+    text-align:left;
+}
+
+
+.result {
+    margin: 20px 0;
+    line-height: 40px;
+    height: 70px;
+    border-radius: 4px;
+    border: 2px solid gray;
+    overflow: hidden;
+}
+.result-txt {
+    background: linear-gradient(LightCoral, Gold, LightSkyBlue, LightCoral);
+}
+.food-item {
+    font-size: 48px;
+    display: flex;
+    justify-content: center;
+    line-height: 70px;
+}
+
+.start.result-txt {
+    animation: resultPlay 1s infinite linear;
+}
+
+@keyframes resultPlay {
+    100% {
+    transform: translateY(-90%)
+    }
+}

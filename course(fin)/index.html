@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>元智大學流行音樂社 社課時程表</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <h1>社課時程表</h1>
+        <br>
+        <div>
+            <div>
+                <p>設定起始日期：<input type="date" id="Date" value=""></p>
+                <p>新增課程：<input type="text" class="add">於場次：<input type="text" class="num"></p>
+                <p>刪除場次：<input type="text" class="delete"></p>
+                <button>確定</button>
+            </div>
+            <div>
+                <br>
+                <table class="MYTable" id="courseTable"></table>
+            </div>
+        </div>
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+        <script src="topic.js"></script>
+        <script src="main.js"></script>
+    </body>
+</html>

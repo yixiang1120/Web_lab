@@ -1,0 +1,16 @@
+body{
+    text-align:center;
+    width: 600px;
+    margin: 0 auto;
+    background-color: #faded9;
+    padding: 0 20px 20px 20px;
+    border: 3px solid rgb(241, 139, 139);
+}
+h1{
+    color:rgb(240, 78, 78);
+}
+
+h2{
+    color: rgb(56, 53, 53);
+}
+

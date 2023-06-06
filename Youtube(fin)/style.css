@@ -1,0 +1,83 @@
+body{
+    text-align:center;
+    background-image: url("sing_100.png");
+    background-repeat:no-repeat;
+    background-size: 100% 110%;
+    font-family:Microsoft JhengHei;
+}
+
+h2{
+    height: 32px;
+    font-size: medium;
+}
+
+input[type="text"]{
+    padding:5px 50px; 
+    border:2px rgb(81, 82, 85) solid;
+    cursor:pointer;
+    border-radius: 5px; 
+}
+
+.button-75 {
+    align-items: center;
+    background-image: linear-gradient(135deg, #c58c8c 40%, #f0bbe0);
+
+    border: 0;
+    border-radius: 20px;
+    color: #fff;
+    display: right;  
+    flex-direction: column;
+    font-family: "Codec cold",sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    height: 30px;
+    justify-content: center;
+    max-width: 9%;
+}
+
+.left,.center,.right{
+    border:1px solid black;
+    height: 400px;
+    width: 280px;
+    float:left; 
+    margin:10px;
+    padding:50px;
+    background:pink;
+    font-size:32px;
+}
+
+@media screen and (max-width: 991px) {
+    .button-75 {
+    font-size: 15px;
+    height: 50px;
+    }
+
+    .button-75 span {
+    line-height: 50px;
+    }
+}
+
+
+
+.button-2 {
+    background-color: rgba(243, 243, 243, 0.5);
+    border-radius: 8px;
+    border-width: 0;
+    color: #333333;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 10px;
+    list-style: none;
+    margin: 0;
+    padding: 10px 12px;
+    text-align: center;
+    transition: all 200ms;
+    vertical-align: baseline;
+    white-space: nowrap;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+}
+

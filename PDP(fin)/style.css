@@ -1,0 +1,140 @@
+@import url(https://fonts.googleapis.com/earlyaccess/cwtexyen.css);
+
+body{
+    text-align:center;
+    width: 600px;
+    margin: 0 auto;
+    background-color: rgb(156, 168, 184);
+    padding: 0 20px 20px 20px;
+    font-family: ‘cwTeXYen’, sans-serif;
+}
+h1{
+    color:rgb(41, 51, 95);
+}
+
+h2{
+    color: rgb(56, 53, 53);
+}
+
+
+.cktoggle_bigbutton_inner { 
+    display: block;
+    width: 200%; /* 左+右背景總寬度 */
+    margin-left: -100%; /* 左側及右側背景位置 一開始躲在左側100% */
+    transition: margin 0.3s ease-in 0s;
+}
+
+.font{
+    font-size: 30px;
+    color: rgb(56, 53, 53);
+}
+.mui-switch { 
+    width: 52px; 
+    height: 31px; 
+    position: relative; 
+    border: 1px solid #dfdfdf;
+    background-color: #fdfdfd; 
+    box-shadow: #dfdfdf 0 0 0 0 inset; 
+    border-radius: 20px; 
+    border-top-left-radius: 20px; 
+    border-top-right-radius: 20px; 
+    border-bottom-left-radius: 20px; 
+    border-bottom-right-radius: 20px; 
+    background-clip: content-box; 
+    display: right; 
+    -webkit-appearance: none; 
+    user-select: none; 
+    outline: none; 
+} 
+.mui-switch:before { 
+    content: ''; 
+    width: 29px; 
+    height: 29px; 
+    position: absolute; 
+    top: 0px; left: 0; 
+    border-radius: 20px; 
+    border-top-left-radius: 20px; 
+    border-top-right-radius: 20px; 
+    border-bottom-left-radius: 20px; 
+    border-bottom-right-radius: 20px; 
+    background-color: #fff; 
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.4); 
+} 
+.mui-switch:checked { 
+    border-color: #64bd63; 
+    box-shadow: #64bd63 0 0 0 16px inset; 
+    background-color: #64bd63; 
+} 
+.mui-switch:checked:before { 
+    left: 21px; 
+} 
+.mui-switch.mui-switch-animbg { 
+    transition: background-color ease 0.4s; 
+} 
+.mui-switch.mui-switch-animbg:before {
+    transition: left 0.3s; 
+} 
+.mui-switch.mui-switch-animbg:checked { 
+    box-shadow: #dfdfdf 0 0 0 0 inset; 
+    background-color: #64bd63; 
+    transition: border-color 0.4s, background-color ease 0.4s; 
+} 
+.mui-switch.mui-switch-animbg:checked:before { 
+    transition: left 0.3s; 
+} 
+.mui-switch.mui-switch-anim { 
+    transition: border cubic-bezier(0, 0, 0, 1) 0.4s, box-shadow cubic-bezier(0, 0, 0, 1) 0.4s; 
+} 
+.mui-switch.mui-switch-anim:before { 
+    transition: left 0.3s; } 
+.mui-switch.mui-switch-anim:checked { 
+    box-shadow: #64bd63 0 0 0 16px inset; background-color: #64bd63; transition: border ease 0.4s, box-shadow ease 0.4s, background-color ease 1.2s; 
+}
+.mui-switch.mui-switch-anim:checked:before { 
+    transition: left 0.3s; 
+}
+
+.button-30 {
+    align-items: center;
+    appearance: none;
+    background-color: #FCFCFD;
+    border-radius: 4px;
+    border-width: 0;
+    box-shadow: rgba(45, 35, 66, 0.4) 0 2px 4px,rgba(45, 35, 66, 0.3) 0 7px 13px -3px,#D6D6E7 0 -3px 0 inset;
+    box-sizing: border-box;
+    color: #36395A;
+    cursor: pointer;
+    display: inline-flex;
+    font-family: "JetBrains Mono",monospace;
+    height: 48px;
+    justify-content: center;
+    line-height: 1;
+    list-style: none;
+    overflow: hidden;
+    padding-left: 16px;
+    padding-right: 16px;
+    position: relative;
+    text-align: left;
+    text-decoration: none;
+    transition: box-shadow .15s,transform .15s;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    white-space: nowrap;
+    will-change: box-shadow,transform;
+    font-size: 18px;
+}
+
+.button-30:focus {
+    box-shadow: #D6D6E7 0 0 0 1.5px inset, rgba(45, 35, 66, 0.4) 0 2px 4px, rgba(45, 35, 66, 0.3) 0 7px 13px -3px, #D6D6E7 0 -3px 0 inset;
+}
+
+.button-30:hover {
+    box-shadow: rgba(45, 35, 66, 0.4) 0 4px 8px, rgba(45, 35, 66, 0.3) 0 7px 13px -3px, #D6D6E7 0 -3px 0 inset;
+    transform: translateY(-2px);
+}
+
+.button-30:active {
+    box-shadow: #D6D6E7 0 3px 7px inset;
+    transform: translateY(2px);
+}

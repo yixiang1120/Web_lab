@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title></title>
+        <link rel="shortcut icon" href="#">
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <video id="myVideo" width="320" height="240"></video>
+        <br>
+        <button id="playBtn">播放</button>
+        <button id="fullBtn">全螢幕</button>
+        <br>
+        <div class="channel-control">
+            <button id="nextVideoBtn">下一個影片</button>
+        </div>
+        <div>
+            <p>音量<span id="volumeDisplay"></span>
+                <button id="lowerVolumeBtn">-</button>
+                <button id="higherVolumeBtn">+</button>
+            </p>
+        </div>
+        <div class="playback-control">
+            <button id="rewindBtn">慢轉</button>
+            <button id="fastForwardBtn">快轉</button>
+        </div>
+        <div>
+            <p>
+                Time : <span id="timeDisplay">? / ?</span><br>
+                <input type="range" id="progressBar" min="0" value="0">
+            </p>    
+        </div>
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+        <script src="main.js"></script>
+    </body>
+</html>
